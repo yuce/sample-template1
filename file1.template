@@ -1,3 +1,6 @@
 
 CLC is at {{ .clc_home }}
 
+Foo: {{ .foo }}
+
+
