@@ -8,7 +8,7 @@ Foo: {{ .foo }}
 This is {{.}}
 {{ end }}
 
-{{ range items "foo" "bar" 38 -}}
+{{ range each "foo" "bar" 38 -}}
 {{.Index}}: {{.Value}}
 {{ end }}
 
