@@ -7,3 +7,8 @@ Foo: {{ .foo }}
 {{ range repeat 4 -}}
 This is {{.}}
 {{ end }}
+
+{{ range items "foo" "bar" 38 -}}
+{{.Index}}: {{.Value}}
+{{ end }}
+
